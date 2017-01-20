@@ -49,7 +49,7 @@ void loop() {
   debug("Loop. ");
 
   sendValues();
-  delay(150000);
+  delay(60000);
 
 }
 
