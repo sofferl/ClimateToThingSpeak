@@ -25,9 +25,6 @@ void setup() {
   Serial.begin(19200);
 
   nanoesp.init();
-  
-Serial.println("SSID"  );
-Serial.println(WLANSSID);
 
   nanoesp.configWifiMode(STATION);
   nanoesp.configWifiStation(WLANSSID, WLANPASSWORD);
